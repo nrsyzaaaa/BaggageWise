@@ -1,0 +1,11 @@
+
+<resources>
+    <color name="navy">#101D35</color>
+    <color name="navy_light">#1D3153</color>
+    <color name="gold">#E5B94D</color>
+    <color name="white">#FFFFFF</color>
+    <color name="background">#F4F6FA</color>
+    <color name="text_dark">#18243A</color>
+    <color name="grey">#6B7280</color>
+    <color name="red">#D93025</color>
+</resources>

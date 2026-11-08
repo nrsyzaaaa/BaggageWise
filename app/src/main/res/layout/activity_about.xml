@@ -1,0 +1,125 @@
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="← Back"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/navy" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ABOUT BAGGAGEWISE"
+            android:textColor="#101D35"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calculate Smart. Travel Easy."
+            android:textColor="#B18A26"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BaggageWise is a mobile application designed to estimate excess baggage charges for air travel. Users can enter their baggage weight, select their ticket class and provide the excess baggage rate to calculate the additional payment."
+            android:textColor="#18243A"
+            android:textSize="15sp"
+            android:layout_marginTop="25dp"
+            android:lineSpacingExtra="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DEVELOPER INFORMATION"
+            android:textColor="#101D35"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Developer Name: NUR SYAZA ADILAH BINTI HAILMY\nStudent Number: 2024679756\nProgramme Code: CS240\nGroup: RCDCS2405A"
+            android:textColor="#18243A"
+            android:textSize="15sp"
+            android:lineSpacingExtra="8dp"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="APPLICATION FEATURES"
+            android:textColor="#101D35"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Baggage weight input\n• Economy and Business class selection\n• Custom excess baggage rate\n• Automatic excess fee calculation\n• 8% service tax calculation"
+            android:textColor="#18243A"
+            android:textSize="15sp"
+            android:lineSpacingExtra="8dp"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="APPLICATION WEBSITE"
+            android:textColor="#101D35"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:id="@+id/tvWebsite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="https://github.com/yourusername/BaggageWise"
+            android:textColor="#174EA6"
+            android:textSize="14sp"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:layout_marginTop="12dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="COPYRIGHT"
+            android:textColor="#101D35"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Copyright © 2026 BaggageWise. All Rights Reserved.\n\nDeveloped for academic purposes as part of the Mobile Technology Assignment."
+            android:textColor="#6B7280"
+            android:textSize="13sp"
+            android:layout_marginTop="12dp"
+            android:lineSpacingExtra="5dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

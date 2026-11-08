@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.BaggageWise" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:statusBarColor">#101D35</item>
+        <item name="android:navigationBarColor">#101D35</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowBackground">#101D35</item>
+    </style>
+
+    <style name="Theme.BaggageWise" parent="Base.Theme.BaggageWise" />
+
+</resources>
